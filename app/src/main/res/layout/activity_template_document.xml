@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:id="@+id/layout">
+
+
+    <ScrollView
+        android:id="@+id/nest"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                >
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycle1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <Button
+                    android:id="@+id/rowbut"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/recycle1"
+                    android:background="#633872"
+                    android:gravity="center"
+                    android:text="+"
+                    android:textColor="#FFFFFF"
+                    android:textSize="35sp" />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/recycler4"
+                    android:layout_below="@+id/recycle1"
+                    android:layout_toRightOf="@id/rowbut"
+                    android:visibility="invisible"/>
+
+                <Button
+                    android:id="@+id/colbut"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:background="#633872"
+                    android:layout_toRightOf="@+id/recycle1"
+                    android:text="+"
+                    android:textColor="#FFFFFF"
+                    android:textSize="35sp" />
+
+
+            </RelativeLayout>
+
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:id="@+id/toolbar2"
+        android:visibility="gone"
+        android:background="@drawable/custom_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/nest"
+        app:navigationIcon="?attr/homeAsUpIndicator">
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:id="@+id/relativeLayout4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:text="Click below to start using this template"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:layout_below="@id/text"
+            android:id="@+id/use"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/corners"
+            android:text="Use this template"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

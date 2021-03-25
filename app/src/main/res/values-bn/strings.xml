@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Digital Register</string>
+
+    <string name="home">বাড়ি</string>
+    <string name="create_new_register">নতুন রেজিস্টার তৈরি করুন</string>
+    <string name="how_to_use">কীভাবে ডিজিটাল রেজিস্টার ব্যবহার করবেন</string>
+    <string name="new_register">নতুন রেজিস্টার</string>
+    <string name="view_our_popular_templates">জনপ্রিয় রেজিস্টার টেম্পলেট ব্যবহার করুন</string>
+    <string name="view_all">সব দেখ</string>
+
+    <string name="rename_file">ফাইলটির নাম পরিবর্তন করুন</string>
+    <string name="enter_new_name">নতুন নাম লিখুন</string>
+    <string name="new_name">নতুন নাম</string>
+    <string name="save">সংরক্ষণ</string>
+    <string name="share_pdf">এটি পিডিএফ হিসাবে ভাগ করুন</string>
+    <string name="delete_file">নথিপত্র মুছে দাও</string>
+    <string name="column">কলাম</string>
+
+    <string name="rename_column">নামকরণ কলাম</string>
+    <string name="change_type">কলামের ধরণ পরিবর্তন করুন</string>
+    <string name="text">পাঠ্য</string>
+    <string name="numbers">সংখ্যা</string>
+    <string name="time">সময়</string>
+    <string name="date">তারিখ</string>
+    <string name="rupees">রুপি</string>
+    <string name="mobile_number">মোবাইল নম্বর</string>
+    <string name="yes_no">হ্যাঁ/না</string>
+    <string name="check_box">চেকবাক্স</string>
+    <string name="show_total">মোট দেখান</string>
+    <string name="setformula">সূত্র সেট করুন</string>
+    <string name="delete_column">কলাম মুছুন</string>
+
+
+    <string name="template">টেমপ্লেট</string>
+    <string name="click_template">টেমপ্লেট দেখতে যে কোনও কার্ডে ক্লিক করুন</string>
+    <string name="shop">দোকান</string>
+    <string name="cashbook">ক্যাশবুক</string>
+    <string name="payment_received">পেমেন্ট পেয়েছি</string>
+    <string name="household">গৃহস্থালীর</string>
+    <string name="grocery">মুদিখানা তালিকা</string>
+    <string name="daily_spend">দৈনিক ব্যয়</string>
+    <string name="teachers">শিক্ষক</string>
+    <string name="fee_register">Fee Register</string>
+    <string name="stationary_register">স্টেশনারি রেজিস্টার</string>
+    <string name="student_marks">ছাত্র নম্বর</string>
+    <string name="student">ছাত্র</string>
+    <string name="topic_name">বিষয় নাম</string>
+    <string name="homework">বাড়ির কাজ</string>
+    <string name="health_fitness">স্বাস্থ্য এবং সুস্থতা</string>
+    <string name="diet_plan">ডায়েট প্ল্যান</string>
+    <string name="workout_plan">ওয়ার্কআউট পরিকল্পনা</string>
+    <string name="cabs_transport">ক্যাবস এবং পরিবহন</string>
+    <string name="trip_register">ট্রিপ রেজিস্টার</string>
+    <string name="car_service">গাড়ী সেবা</string>
+    <string name="wedding">বিবাহ</string>
+    <string name="guest">অতিথি তালিকা</string>
+    <string name="food_menu">খাদ্য তালিকা</string>
+    <string name="expenditure_list">ব্যয়ের তালিকা</string>
+    <string name="orders">অর্ডার</string>
+    <string name="sell_register">রেজিস্টার বিক্রয়</string>
+
+
+    <string name="change_lang">Change Language</string>
+    <string name="enablefpl">ফিঙ্গারপ্রিন্ট লক সক্ষম করুন</string>
+    <string name="disablefpl">ফিঙ্গারপ্রিন্ট লকটি অক্ষম করুন</string>
+    <string name="help">সহায়তা &amp; মতামত</string>
+    <string name="share_app">অ্যাপ্লিকেশন ভাগ করা</string>
+    <string name="pdf_vip" tools:ignore="MissingTranslation">পিডিএফ ভিআইপি</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="salary_book">বেতন বই</string>
+    <string name="attendance">উপস্থিতি</string>
+    <string name="timetable">সময় সারণী</string>
+    <string name="classnotes">ক্লাস নোট</string>
+    <string name="cashsplitting">নগদ বিভাজন</string>
+    <string name="courseplanning">কোর্স পরিকল্পনা</string>
+    <string name="importantdates">গুরুত্বপূর্ন তারিখগুলো</string>
+    <string name="examshedule">পরীক্ষার সময়সূচী</string>
+
+
+    <string name="congratulations">অভিনন্দন!</string>
+    <string name="you_get_exclusive_access_to_pdf_vip">আপনি পিডিএফ ভিআইপি-তে একচেটিয়া অ্যাক্সেস পান</string>
+    <string name="now_you_get_access_to">এখন আপনি অ্যাক্সেস পেতে</string>
+    <string name="digital_register_brand_free_pdf_amp_add_your_own_business_details"><![CDATA[ডিজিটাল রেজিস্টার ব্র্যান্ড ফ্রি পিডিএফ এবং আপনার নিজের ব্যবসায়ের বিশদ যুক্ত করুন]]></string>
+    <string name="digital_register_branding_on_pdf_vip">পিডিএফ ভিআইপিতে ডিজিটাল রেজিস্টার ব্র্যান্ডিং</string>
+    <string name="you_can_add_digital_register_branding_on_pdf_vip">আপনি পিডিএফ ভিআইপিতে ডিজিটাল রেজিস্টার ব্র্যান্ডিং যুক্ত করতে পারেন</string>
+    <string name="digital_register_branding">ডিজিটাল রেজিস্টার ব্র্যান্ডিং</string>
+    <string name="business_details_on_pdf_vip">পিডিএফ ভিআইপি-এ ব্যবসায়ের বিবরণ</string>
+    <string name="remove">অপসারণ</string>
+    <string name="business_name">প্রাতিষ্ঠানিক নাম</string>
+    <string name="business_address">ব্যবসা ঠিকানা</string>
+    <string name="add">অ্যাড</string>
+
+    <string name="unlock_access_to_pdf_vip">পিডিএফ ভিআইপিতে আনলক অ্যাক্সেস</string>
+    <string name="more_details">আরো বিস্তারিত</string>
+    <string name="share_digital_register_with_3_friends_to">3 জন বন্ধুকে সাথে ডিজিটাল রেজিস্টার ভাগ করুন</string>
+    <string name="remove_digital_register_branding_on_pdf">পিডিএফে ডিজিটাল রেজিস্টার ব্র্যান্ডিং সরান</string>
+    <string name="add_your_business_details_on_pdf">পিডিএফে আপনার ব্যবসায়ের বিশদ যুক্ত করুন</string>
+    <string name="ask_your_3_friends_to_login_with_your_invite_link_and_create_at_least_3_registers">আপনার আমন্ত্রিত লিঙ্কটি দিয়ে আপনার 3 বন্ধুকে লগইন করতে এবং কমপক্ষে 3 টি রেজিস্টার তৈরি করতে বলুন</string>
+    <string name="share_invite_link">আমন্ত্রণ লিঙ্ক ভাগ করুন</string>
+    <string name="status">স্থিতি</string>
+    <string name="download_and_login">ডাউনলোড এবং লগইন করুন</string>
+    <string name="_0_3">0/3</string>
+    <string name="create_at_least_3_registers">কমপক্ষে 3 টি রেজিস্টার তৈরি করুন</string>
+    <string name="unlock">আনলক করুন</string>
+    <string name="how_it_works">How it works</string>
+
+    <string name="benefits_of_sharing_digital_register">ডিজিটাল রেজিস্টার ভাগ করে নেওয়ার সুবিধা</string>
+    <string name="_1_remove_digital_register_branding_on_pdf">1. পিডিএফে ডিজিটাল রেজিস্টার ব্র্যান্ডিং সরান</string>
+    <string name="_2_add_your_business_name_address_and_mobile_number_on_pdf">2. পিডিএফে আপনার ব্যবসায়ের নাম, ঠিকানা এবং মোবাইল নম্বর যুক্ত করুন</string>
+    <string name="_2_steps_to_unlock">আনলক করতে 2 টি পদক্ষেপ</string>
+    <string name="_1_share_your_invite_link_with_3_friends">1. আপনার আমন্ত্রিত লিঙ্কটি 3 বন্ধুর সাথে ভাগ করুন</string>
+    <string name="_2_ask_them_to_login_and_create_at_least_3_registers">2. তাদের লগইন জিজ্ঞাসা করুন এবং কমপক্ষে 3 রেজিস্টার এ তৈরি করুন</string>
+    <string name="reminder">অনুস্মারক</string>
+    <string name="Rename">নতুন নামকরণ করুন</string>
+    <string name="Share_as_Pdf">পিডিএফ হিসাবে শেয়ার করুন</string>
+    <string name="Download_pdf">পিডিএফ ডাউনলোড করুন</string>
+    <string name="Delete">মুছে ফেলা</string>
+</resources>

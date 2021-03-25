@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Digital Register</string>
+    
+    <string name="home">گھر</string>
+    <string name="create_new_register">نیا رجسٹر بنائیں</string>
+    <string name="how_to_use">ڈیجیٹل رجسٹر کا استعمال کیسے کریں</string>
+    <string name="new_register">نیا رجسٹر</string>
+    <string name="view_our_popular_templates">مشہور رجسٹر ٹیمپلیٹس استعمال کریں</string>
+    <string name="view_all">سب دیکھیں</string>
+
+    <string name="rename_file">فائل کا نام تبدیل کریں</string>
+    <string name="enter_new_name">نیا نام درج کریں</string>
+    <string name="new_name">نیا نام</string>
+    <string name="save">محفوظ کریں</string>
+    <string name="share_pdf">اسے پی ڈی ایف کے بطور شیئر کریں</string>
+    <string name="delete_file">فائل کو ڈیلیٹ کریں</string>
+    <string name="column">کالم</string>
+
+    <string name="rename_column">کالم کا نام تبدیل کریں</string>
+    <string name="change_type">کالم کی قسم کو تبدیل کریں</string>
+    <string name="text">متن</string>
+    <string name="numbers">متن</string>
+    <string name="time">وقت</string>
+    <string name="date">تاریخ</string>
+    <string name="rupees">روپے</string>
+    <string name="mobile_number">موبائل نمبر</string>
+    <string name="yes_no">ہا/ نہیں</string>
+    <string name="check_box">چیک باکس</string>
+    <string name="show_total">کل دکھائیں</string>
+    <string name="setformula">فارمولا مرتب کریں</string>
+    <string name="delete_column">کالم حذف کریں</string>
+
+
+    <string name="template">سانچے</string>
+    <string name="click_template">ٹیمپلیٹ دیکھنے کے لئے کسی بھی کارڈ پر کلک کریں</string>
+    <string name="shop">دکان</string>
+    <string name="cashbook">نقد کتاب</string>
+    <string name="payment_received">ادائیگی موصول</string>
+    <string name="household">گھریلو</string>
+    <string name="grocery">گروسری کی فہرست</string>
+    <string name="daily_spend">روزانہ خرچ کرنا</string>
+    <string name="teachers">اساتذہ</string>
+    <string name="fee_register">فیس رجسٹر</string>
+    <string name="stationary_register">اسٹیشنری رجسٹر</string>
+    <string name="student_marks">طلباء کے نشانات</string>
+    <string name="student">طالب علم</string>
+    <string name="topic_name">عنوان نام</string>
+    <string name="homework">گھر کا کام</string>
+    <string name="health_fitness">صحت اور تندرستی</string>
+    <string name="diet_plan">ڈائٹ پلان</string>
+    <string name="workout_plan">ورزش کا منصوبہ</string>
+    <string name="cabs_transport">کیبس اور ٹرانسپورٹ</string>
+    <string name="trip_register">ٹرپ رجسٹر</string>
+    <string name="car_service">کار سروس</string>
+    <string name="wedding">شادی</string>
+    <string name="guest">مہمانوں کی فہرست</string>
+    <string name="food_menu">فوڈ مینو</string>
+    <string name="expenditure_list">اخراجات کی فہرست</string>
+    <string name="orders">احکامات</string>
+    <string name="sell_register">رجسٹر فروخت کریں</string>
+
+
+    <string name="change_lang">زبان تبدیل کریں</string>
+    <string name="enablefpl">فنگر پرنٹ لاک کو فعال کریں</string>
+    <string name="disablefpl">فنگر پرنٹ لاک کو غیر فعال کریں</string>
+    <string name="help">مدد اور آراء</string>
+    <string name="share_app">ایپ شیئر کریں</string>
+    <string name="pdf_vip" tools:ignore="MissingTranslation">پی ڈی ایف VIP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="salary_book">تنخواہ کی کتاب</string>
+    <string name="attendance">حاضری</string>
+    <string name="timetable">ٹائم ٹیبل</string>
+    <string name="classnotes">کلاس نوٹ</string>
+    <string name="cashsplitting">کیش الگ کرنا</string>
+    <string name="courseplanning">کورس پلاننگ</string>
+    <string name="importantdates">اہم تاریخیں</string>
+    <string name="examshedule">امتحانات کا نظام الاوقات</string>
+
+
+    <string name="congratulations">مبارک ہو!</string>
+    <string name="you_get_exclusive_access_to_pdf_vip">آپ کو پی ڈی ایف VIP تک خصوصی رسائی حاصل ہے</string>
+    <string name="now_you_get_access_to">اب آپ تک رسائی حاصل ہے</string>
+    <string name="digital_register_brand_free_pdf_amp_add_your_own_business_details"><![CDATA[ڈیجیٹل رجسٹرڈ مفت برانڈ پی ڈی ایف اور اپنے کاروبار کی تفصیلات شامل کریں]]></string>
+    <string name="digital_register_branding_on_pdf_vip">پی ڈی ایف VIP پر ڈیجیٹل رجسٹر برانڈنگ</string>
+    <string name="you_can_add_digital_register_branding_on_pdf_vip">آپ پی ڈی ایف VIP پر ڈیجیٹل رجسٹر برانڈنگ شامل کرسکتے ہیں</string>
+    <string name="digital_register_branding">ڈیجیٹل رجسٹر برانڈنگ</string>
+    <string name="business_details_on_pdf_vip">کاروباری تفصیلات پی ڈی ایف VIP پر</string>
+    <string name="remove">دور</string>
+    <string name="business_name">کاروبار کا نام</string>
+    <string name="business_address">کاروباری پتہ</string>
+    <string name="add">شامل کریں</string>
+
+    <string name="unlock_access_to_pdf_vip">پی ڈی ایف VIP تک انلاک کریں</string>
+    <string name="more_details">مزید تفصیلات</string>
+    <string name="share_digital_register_with_3_friends_to">3 دوستوں کے ساتھ ڈیجیٹل رجسٹر شیئر کریں</string>
+    <string name="remove_digital_register_branding_on_pdf">پی ڈی ایف پر ڈیجیٹل رجسٹر برانڈنگ کو ہٹا دیں</string>
+    <string name="add_your_business_details_on_pdf">پی ڈی ایف پر اپنی کاروباری تفصیلات شامل کریں</string>
+    <string name="ask_your_3_friends_to_login_with_your_invite_link_and_create_at_least_3_registers">اپنے 3 دوستوں سے اپنے دعوت نامے کے لنک پر لاگ ان ہونے اور کم از کم 3 رجسٹر تخلیق کرنے کو کہیں</string>
+    <string name="share_invite_link">دعوت کا لنک شیئر کریں</string>
+    <string name="status">حالت</string>
+    <string name="download_and_login">ڈاؤن لوڈ اور لاگ ان کریں</string>
+    <string name="_0_3">0/3</string>
+    <string name="create_at_least_3_registers">کم از کم 3 رجسٹر بنائیں</string>
+    <string name="unlock">انلاک کریں</string>
+    <string name="how_it_works">How it works</string>
+
+    <string name="benefits_of_sharing_digital_register">ڈیجیٹل رجسٹر شیئر کرنے کے فوائد</string>
+    <string name="_1_remove_digital_register_branding_on_pdf">1. پی ڈی ایف پر ڈیجیٹل رجسٹر برانڈنگ کو ہٹا دیں</string>
+    <string name="_2_add_your_business_name_address_and_mobile_number_on_pdf">2. پی ڈی ایف پر اپنے کاروبار کا نام ، پتہ اور موبائل نمبر شامل کریں</string>
+    <string name="_2_steps_to_unlock">انلاک کرنے کے لئے 2 اقدامات</string>
+    <string name="_1_share_your_invite_link_with_3_friends">1. اپنے انوائٹ لنک کو 3 دوستوں کے ساتھ شیئر کریں</string>
+    <string name="_2_ask_them_to_login_and_create_at_least_3_registers">2. ان سے لاگ ان کرنے اور کم سے کم 3 رجسٹروں میں تخلیق کرنے کو کہیں</string>
+    <string name="reminder">یاد دہانی</string>
+    <string name="Rename">نام تبدیل کریں</string>
+    <string name="Share_as_Pdf">بطور پی ڈی ایف شیئر کریں</string>
+    <string name="Download_pdf">پی ڈی ایف ڈاؤن لوڈ کریں</string>
+    <string name="Delete">حذف کریں</string>
+
+</resources>

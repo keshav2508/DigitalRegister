@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+        android:text="Select Language"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:text="Please select a language you are comfortable with"
+        android:textSize="16dp" />
+
+    <worker8.com.github.radiogroupplus.RadioGroupPlus
+        android:id="@+id/radio_group_plus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="English"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                     />
+
+                <RadioButton
+                    android:id="@+id/english"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:buttonTint="@color/black"/>
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                />
+
+            <LinearLayout
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="हिन्दी \nHindi"
+                    android:textStyle="bold"
+                    />
+
+                <RadioButton
+                    android:id="@+id/hindi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/black"
+                    android:layout_margin="16dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="मराठी\nMarathi"
+                    android:textStyle="bold"
+                     />
+
+                <RadioButton
+                    android:id="@+id/marathi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/black"
+                    android:layout_margin="16dp" />
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="10dp"
+                android:layout_height="129dp"
+                />
+
+            <LinearLayout
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="ગુજરાતી\nGujarati"
+                    android:textStyle="bold"
+                     />
+
+                <RadioButton
+                    android:id="@+id/gujarati"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/black"
+                    android:layout_margin="16dp" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="ಕನ್ನಡ\nKannada"
+                    android:textStyle="bold"
+                     />
+
+                <RadioButton
+                    android:id="@+id/kannada"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:buttonTint="@color/black"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"/>
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="10dp"
+                android:layout_height="129dp"
+                />
+
+            <LinearLayout
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:text="বিংগালী\nBengali"
+                    android:textStyle="bold"
+                     />
+
+                <RadioButton
+                    android:id="@+id/bengali"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:buttonTint="@color/black"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/punjabitext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="ਪੰਜਾਬੀ\nPunjabi"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    />
+
+                <RadioButton
+                    android:id="@+id/punjabi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:buttonTint="@color/black"/>
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="10dp"
+                android:layout_height="129dp"
+                />
+
+            <LinearLayout
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tamiltext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="हिதமிழ்\nTamil"
+                    android:textStyle="bold"
+                    />
+
+                <RadioButton
+                    android:id="@+id/tamil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/black"
+                    android:layout_margin="16dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/telgutext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="తెలుగు\nTelugu"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    />
+
+                <RadioButton
+                    android:id="@+id/telugu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:buttonTint="@color/black"/>
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="10dp"
+                android:layout_height="129dp"
+                />
+
+            <LinearLayout
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/malayalamtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="മലയാളം\nMalayalam"
+                    />
+
+                <RadioButton
+                    android:id="@+id/malayalam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/black"
+                    android:layout_margin="16dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/urdutext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:text=""
+                    android:textColor="@color/black"
+                    />
+
+                <RadioButton
+                    android:id="@+id/urdu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:buttonTint="@color/black"/>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </worker8.com.github.radiogroupplus.RadioGroupPlus>
+
+    <Button
+        android:id="@+id/continuebtn"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/continuecurve"
+        android:text="Continue"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+
+</LinearLayout>
+    </ScrollView>

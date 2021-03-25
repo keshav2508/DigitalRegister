@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="16sp"
+        android:text="Enter Address Line 1" />
+    <EditText
+        android:id="@+id/b_add1"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_margin="10dp"
+        android:background="#e0e0e0"
+        android:gravity="fill_vertical"
+        android:paddingLeft="10dp"
+        android:text=""
+        android:hint="Address Line 1"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="16dp"
+        android:text="Enter Address Line 2"
+        ></TextView>
+    <EditText
+        android:id="@+id/b_add2"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_margin="10dp"
+        android:background="#e0e0e0"
+        android:gravity="fill_vertical"
+        android:paddingLeft="10dp"
+        android:text=""
+        android:hint="Address Line 2"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="16dp"
+        android:text="Enter City, State, &amp; Country"
+        ></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/city"
+        android:layout_height="58dp"
+        android:layout_margin="10dp"
+        android:background="#e0e0e0"
+        android:gravity="fill_vertical"
+        android:paddingLeft="10dp"
+        android:text=""
+        android:hint="City, State and Country name"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="16dp"
+        android:text="Enter Pincode"
+        ></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_margin="10dp"
+        android:background="#e0e0e0"
+        android:id="@+id/pincode"
+        android:gravity="fill_vertical"
+        android:paddingLeft="10dp"
+        android:text=""
+        android:hint="Pin Code"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        />
+    <Button
+        android:id="@+id/save_address"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/corners"
+        android:text="Save"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="#fFFFFF"
+        android:layout_marginTop="20dp"></Button>
+</LinearLayout>
